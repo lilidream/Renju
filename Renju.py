@@ -40,7 +40,7 @@ def void_2dArray(length):
     return data
 
 def verify(data,type):
-    length = len(data)-1
+    length = len(data)-3
     state = 0
     for i in range(2,length):
         for j in range(2,length):
